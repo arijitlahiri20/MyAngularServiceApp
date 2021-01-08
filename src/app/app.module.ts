@@ -14,6 +14,7 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { DemocompComponent } from './democomp/democomp.component';
 import { DemoAppComponent } from './demo-app/demo-app.component';
+import { DemoArijitComponent } from './demo-arijit/demo-arijit.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { DemoAppComponent } from './demo-app/demo-app.component';
     LoginComponent,
     HomeComponent,
     DemocompComponent,
-    DemoAppComponent
+    DemoAppComponent,
+    DemoArijitComponent
   ],
   imports: [
     BrowserModule,
