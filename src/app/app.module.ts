@@ -12,6 +12,7 @@ import { ListEmployeeComponent } from './list-employee/list-employee.component';
 import { RestApiService } from './rest-api.service';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
+import { DemocompComponent } from './democomp/democomp.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { HomeComponent } from './home/home.component';
     EditEmployeeComponent,
     ListEmployeeComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    DemocompComponent
   ],
   imports: [
     BrowserModule,
