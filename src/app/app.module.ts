@@ -12,6 +12,7 @@ import { ListEmployeeComponent } from './list-employee/list-employee.component';
 import { RestApiService } from './rest-api.service';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
+import { DemocompComponent } from './democomp/democomp.component';
 import { DemoAppComponent } from './demo-app/demo-app.component';
 
 
@@ -23,6 +24,7 @@ import { DemoAppComponent } from './demo-app/demo-app.component';
     ListEmployeeComponent,
     LoginComponent,
     HomeComponent,
+    DemocompComponent,
     DemoAppComponent
   ],
   imports: [
