@@ -1,0 +1,29 @@
+
+<div class="container bg-light p-5 mt-5 rounded" style="width:400px">
+    <div class="">
+        <form #f="ngForm" (ngSubmit)="AddEmployee(f)">
+            <h3>Add Employee</h3>
+            <div class="form-group">
+                <label>ID :</label>
+                <input type="text" class="form-control" [(ngModel)]="empData.id" name="id"/> 
+            </div>
+            <div class="form-group">
+                <label>Name :</label>
+                <input type="text" class="form-control" [(ngModel)]="empData.name" name="name"/>
+                
+            </div>
+            <div class="form-group">
+                <label>Email ID :</label>
+                <input type="text" class="form-control" [(ngModel)]="empData.email" name="email"/>
+                
+            </div>
+            <!-- <div class="form-group">
+                <label>Phone No. :</label>
+                <input type="text" class="form-control" [(ngModel)]="empData.phone" name="phone"/> 
+            </div> -->
+            <div class="form-group">
+                <button type="submit" class="btn btn-success btn-lg mx-auto" style="width: 100px;">Submit</button>            </div>
+        </form>
+    </div>
+
+</div>

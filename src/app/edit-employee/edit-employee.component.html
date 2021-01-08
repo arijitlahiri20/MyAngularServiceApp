@@ -1,0 +1,26 @@
+<div class="container bg-light mt-5 round p-4" style="width: 400px;">
+    <div class="col-md-12">
+      
+      <h3 class="mb-3 text-center">Update Employee</h3>
+  
+      <div class="form-group">
+        <input type="text" [(ngModel)]="empData.id" class="form-control" placeholder="ID">
+      </div>
+      <div class="form-group">
+        <input type="text" [(ngModel)]="empData.name" class="form-control" placeholder="Name">
+      </div>
+  
+      <div class="form-group">
+        <input type="text" [(ngModel)]="empData.email" class="form-control" placeholder="Email">
+      </div>
+  
+      <!-- <div class="form-group">
+        <input type="text" [(ngModel)]="empData.phone" class="form-control" placeholder="Phone">
+      </div> -->
+  
+      <div class="form-group">
+        <button class="btn btn-success btn-lg" (click)="updateEmployee()">Update Employee</button>
+      </div>
+      
+    </div>
+  </div>
