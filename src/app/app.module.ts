@@ -13,6 +13,7 @@ import { RestApiService } from './rest-api.service';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { DemocompComponent } from './democomp/democomp.component';
+import { DemoAppComponent } from './demo-app/demo-app.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { DemocompComponent } from './democomp/democomp.component';
     ListEmployeeComponent,
     LoginComponent,
     HomeComponent,
-    DemocompComponent
+    DemocompComponent,
+    DemoAppComponent
   ],
   imports: [
     BrowserModule,
